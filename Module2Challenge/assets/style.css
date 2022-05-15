@@ -1,4 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    color: blueviolet;
+    color: rgb(10, 10, 10);
+   background-color:aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-style: oblique;
+    margin-top: -10px;
+    border: none;
+    
+}
+
+.header-img {
+    background-image: url(./background\ img.jpg);
+    height: 1004px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 45px;
+    
+    color: rgb(43, 50, 43);
+    margin: 34px;
+    border: white;
+}
+
+header a {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 34px;
+}
+
+header nav {
+    margin: 34px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: blue;
+    
+
+}
+
+header nav ul li a {
+    padding: 10px 47px;
+    font-weight: lighter;
+    
+}
+
+header nav ul li a:hover {
+  background: rgb(189, 115, 115);
+  width: 100%;
+  border-radius: 10px;
+  text-shadow: none;
+}
+
+.infoMe {
+    display: flex;
+    justify-content:center;
+}
+
+.hero-AM, .hero-MW, .hero-CM{
+  width:45%;
+  margin: 20px;
+ display: flex;
+ font-size: 25px;
+ flex-direction: column;
+ 
+ align-items: center;
+margin-bottom: 45px;
+
+}
+
+
+
+.hero-AM h2, .hero-MW h2, .hero-CM h2{
+font-size: 40px;
+color: royalblue;
+border-bottom-style: groove;
+
+}
+
+.surfreport {
+    display: flex;
+    justify-content:center;
+    height: 619px;
+    border-radius:10px;
+    border: solid;
+    margin: 45px;
+    border-style: groove;
+    
+      
+}
+
+
+
+
+
