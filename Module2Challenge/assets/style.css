@@ -30,6 +30,7 @@ header {
     background-position: center;
     display: flex;
     
+    
     flex-wrap:wrap;
     align-items: flex-start;
 }
@@ -80,6 +81,9 @@ header nav ul li a:hover {
 .infoMe {
     display: flex;
     justify-content:center;
+    flex-direction: column;
+    align-items:center;
+
 }
 
 .hero-AM, .hero-MW, .hero-CM{
@@ -104,17 +108,46 @@ border-bottom-style: groove;
 }
 
 .surfreport {
+    background-image: url(./First\ Challenge.png);
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
+    align-items: flex-end;
     height: 619px;
     border-radius:10px;
     border: solid;
     margin: 45px;
     border-style: groove;
+    width: 80%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
     
       
 }
+.test  {
+    border-style: groove;
+    height: 100px;
+    width: 20%;
+    border-color:rgb(43, 50, 43);
+    background: rgba(47, 47, 47, 0.3);
+    display: flex;
 
+
+}
+
+.projectheader {
+    color: rgb(222, 230, 230);
+    font-family:'Oleo Script Swash Caps', cursive;
+    font-size: 34px;
+}
+
+.click1 {
+    width: 100%;
+    display: flex;
+justify-content: center;
+}
 
 
 
