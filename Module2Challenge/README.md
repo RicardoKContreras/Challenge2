@@ -25,3 +25,22 @@
 
     * WHEN I resize the page or view the site on various screens and devices
     * THEN I am presented with a responsive layout that adapts to my viewport
+
+
+## Notes
+
+* I created a responsive `viewport` by incorporating `flex` and best practices.
+
+* I added my `name` and `avatar`
+
+* I added  `google fonts` to my `HTML` and `CSS`
+
+*  I made my `About Me`, `My Work`, and `Contact Me` navigation items redirect to the oppropriate sections
+
+*  I set up images for `My Work` section and made them redirect to the application
+
+* Added `placeholder` images for certain projects in development
+
+* Added media query for sizes of a `tablet(980px-768px)` and a `phone(575px)`
+
+* Added a little bit of `styling` for practice

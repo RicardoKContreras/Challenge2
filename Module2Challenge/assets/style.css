@@ -44,9 +44,9 @@ header h1 {
     font-weight: bold;
     font-size: 45px;
     
-    color: rgb(43, 50, 43);
+    color: aquamarine;
     margin: 34px;
-    border: white;
+    
 }
 
 header a {
@@ -97,7 +97,6 @@ header nav ul li a:hover {
  display: flex;
  font-size: 25px;
  flex-direction: column;
- 
  align-items: center;
 margin-bottom: 45px;
 
@@ -112,7 +111,7 @@ border-bottom-style: groove;
 
 }
 
-.surfreport {
+.main-project {
     background-image: url(./First\ Challenge.png);
     display: flex;
     justify-content:flex-start;
@@ -172,7 +171,7 @@ border-bottom-style: groove;
     width: 80%;
 }
 
-.Run-Buddy {
+.side-projects {
     width: 100%;
     height: 309.5px;
     border-style: groove;
@@ -182,6 +181,17 @@ border-bottom-style: groove;
     background-repeat: no-repeat;
     background-size:cover;
 
+}
+
+.side-projects:hover {
+    transform: scale(1.2);
+    border-color: black;
+}
+
+.main-project:hover {
+    transform: scale(1.2);
+    border-color:royalblue;
+    border-style: double;
 }
 
 @media screen and (max-width: 980px) {
@@ -194,7 +204,7 @@ border-bottom-style: groove;
     width: 100%;
 }
 
-.Run-Buddy {
+.side-projects {
     height: 270px;
 }
 
@@ -205,8 +215,11 @@ border-bottom-style: groove;
 
 }
 @media screen and (max-width: 768px) {
-.Run-Buddy {
+.side-projects {
     height: 250px;
+}
+.more-projects{ 
+    height: 1000px;
 }
 
 .sub-style {
@@ -229,6 +242,33 @@ header nav {
     margin-bottom: 5px;
 }
 
+}
+
+@media screen and (max-width: 575px) {
+    .side-projects {
+        height: 175px;
+    }
+    
+    .sub-style {
+        width:30%;
+        
+        height: 60px;
+    }
+    .projectheader {
+        font-size: 19px;
+    
+    }
+    .more-projects{ 
+        height: 700px;
+    }
+      
+    .nav-media {
+        font-size: 20px;
+        
+    }
+    .hero-CM {
+        width: 58%;
+    }
 }
 
 
